@@ -1,0 +1,18 @@
+{
+  "extends": ["next/core-web-vitals", "@eyecuelab/eslint-config-react"],
+  "rules": {
+    "no-console": "off",
+    "import/order": "off",
+    "import/no-duplicates": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "unused-imports/no-unused-imports-ts": "off",
+    "unused-imports/no-unused-vars-ts": "off",
+    "prettier/prettier": ["error", {
+      "endOfLine": "auto"
+    }],
+    "react/no-unknown-property": "off",
+    "max-lines": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+} 
